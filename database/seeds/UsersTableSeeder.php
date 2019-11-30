@@ -19,9 +19,9 @@ class UsersTableSeeder extends Seeder
             'firstname'    => 'Laravel',
             'lastname'     => 'Admin',
             'cellphone'    => '123456789',
-            'email'        => 'admin@laravel.local',
-            'gender'       => 'ninja',
-            'password'     => bcrypt('admin'),
+            'email'        => 'admin',
+            'gender'       => 'male',
+            'password'     => bcrypt('password'),
             'confirmed_at' => Carbon::now()
         ]);
 
